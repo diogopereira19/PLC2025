@@ -1,0 +1,58 @@
+[
+    {
+        "id": "SELECT",
+        "expreg": "select"
+    },
+    {
+        "id": "WHERE",
+        "expreg": "where"
+    },
+    {
+        "id": "LIMIT",
+        "expreg": "LIMIT"
+    },
+    {
+        "id": "VARIAVEL",
+        "expreg": "\\?([a-zA-Z][a-zA-Z0-9_]*)"
+    },
+    {
+        "id": "PONTO",
+        "expreg": "\\."
+    },
+    {
+        "id": "CHAVETA_ABRE",
+        "expreg": "\\{"
+    },
+    {
+        "id": "CHAVETA_FECHA",
+        "expreg": "\\}"
+    },
+    {
+        "id": "PREF_DBO",
+        "expreg": "dbo:"
+    },
+    {
+        "id": "PREF_FOAF",
+        "expreg": "foaf:"
+    },
+    {
+        "id": "URI_COMPLETA_OU_ABREVIADA",
+        "expreg": "([a-zA-Z][a-zA-Z0-9]*):([a-zA-Z0-9_#\\-\\.%]+)"
+    },
+    {
+        "id": "LITERAL_COM_LINGUA",
+        "expreg": "\"([^\"\\\\]*(\\\\.[^\"\\\\]*)*)\"@([a-zA-Z]+)"
+    },
+    {
+        "id": "LITERAL_STRING",
+        "expreg": "\"([^\"\\\\]*(\\\\.[^\"\\\\]*)*)\""
+    },
+    {
+        "id": "NUM",
+        "expreg": "[0-9]+"
+    },
+    {
+        "id": "COMENTARIO",
+        "expreg": "#.*"
+    }
+]
