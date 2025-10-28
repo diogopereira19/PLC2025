@@ -1,0 +1,26 @@
+[
+    {
+        "cod": "A23",
+        "nome": "\u00e1gua 0.5L",
+        "quant": 6,
+        "preco": 0.7
+    },
+    {
+        "cod": "B14",
+        "nome": "sumo laranja",
+        "quant": 5,
+        "preco": 1.2
+    },
+    {
+        "cod": "C56",
+        "nome": "barra de cereais",
+        "quant": 9,
+        "preco": 0.95
+    },
+    {
+        "cod": "D89",
+        "nome": "pacote de batatas",
+        "quant": 6,
+        "preco": 1.15
+    }
+]
