@@ -2,12 +2,13 @@
 
 import ply.lex as lex
 
-tokens = ('NUM', 'PA', 'PF', 'OP')
+tokens = ('NUM', 'PA', 'PF', 'OP_SOMA', 'OP_MULT')
 
 t_NUM = r'\d+'
 t_PA = r'\('
 t_PF = r'\)'
-t_OP = r'(\+|\-|\*|/)'
+t_OP_SOMA = r'(\+|\-)'
+t_OP_MULT = r'(\*|/)'
 
 def t_newline(t):
     r'\n+'
